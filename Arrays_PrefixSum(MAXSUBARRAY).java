@@ -7,13 +7,13 @@ public class main{
         prefix[0]=numbers[0]; //copy 0th index as it is
         for(int i=1;i<numbers.length;i++){
            prefix[i]= prefix[i-1]+numbers[i]; 
-           //calculating prefix array (index)
+           //calculating prefix array (elements)
         }
         for(int i=0;i<numbers.length;i++){
             int start=i;
             for(int j=i;j<numbers.length;j++){
                 int end=j;
-                //calculating elements in prefix array
+                //calculating index in prefix array
                 currsum=start==0 ? prefix[end]:prefix[end]-prefix[start-1]; 
                 if(max<currsum){
                     max=currsum;
