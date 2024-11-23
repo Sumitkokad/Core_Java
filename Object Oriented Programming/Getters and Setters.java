@@ -2,6 +2,9 @@
 
 1] Getter: Retrieves (gets) the value of a private field.
 2] Setter: Updates (sets) the value of a private field. 
+
+this keyword-It is used to refer to the current object
+
 */
 
 public class Main{
