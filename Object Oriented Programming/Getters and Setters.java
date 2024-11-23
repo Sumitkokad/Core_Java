@@ -1,7 +1,7 @@
 /*Getters and Setters are methods used to access and modify private fields of a class. They follow the principle of encapsulation, which protects the fields from direct access.
 
-1] Getter: Retrieves (gets) the value of a private field.
-2] Setter: Updates (sets) the value of a private field. 
+1] Getter: Retrieves (gets) the value of a private field. (return the value)
+2] Setter: Updates (sets) the value of a private field.   (modify the value)
 
 this keyword-It is used to refer to the current object
 
