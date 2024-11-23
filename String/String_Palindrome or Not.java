@@ -1,3 +1,6 @@
+ /* A palindrome is a word, phrase, number, or sequence that reads the same backward as forward, ignoring spaces, punctuation, and capitalization.
+    Example-notton,123321,radar. */
+
 public class main{
     public static boolean palindrome(String str){
       
