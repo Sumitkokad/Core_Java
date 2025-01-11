@@ -17,13 +17,13 @@ class Queen implements Cheesplayer{
     System.out.println("up-down,left-right,diagonal(in all four direction)");
  }
 }
-class Haati{
+class Haati implements Cheesplayer{
 public void moves(){
     System.out.println("up-down,left-right");
 }
 }
-class King{
-public void moves(){
+class King implements Cheesplayer{
+ public void moves(){
     System.out.println("moves only 1 house");
 }
 }
