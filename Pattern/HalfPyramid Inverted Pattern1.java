@@ -1,3 +1,28 @@
+/*
+****
+***
+**
+*
+
+*/
+
+
+public class Main{
+    public static void Pyramidepattern(int n){
+        for(int i=1;i<=n;i++){
+            for(int j=i;j<=n;j++){
+                System.out.print("*");
+            }
+            System.out.println();
+        }
+        
+    }
+    public static void main(String args[]){
+        Pyramidepattern(4);
+    }
+}
+
+
 /*  Code Explanation
 Outer Loop (for(int i=1; i<=n; i++)):
 
@@ -84,18 +109,3 @@ System.out.println(); moves to the next line after the stars for the current row
 
 
 
-
-public class Main{
-    public static void Pyramidepattern(int n){
-        for(int i=1;i<=n;i++){
-            for(int j=i;j<=n;j++){
-                System.out.print("*");
-            }
-            System.out.println();
-        }
-        
-    }
-    public static void main(String args[]){
-        Pyramidepattern(4);
-    }
-}
