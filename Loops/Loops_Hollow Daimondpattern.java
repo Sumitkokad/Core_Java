@@ -1,4 +1,5 @@
 
+
 /*
     *
    * *
@@ -22,7 +23,7 @@ public class Main{
                 System.out.print(" ");
             }
             for(int k=1;k<=(2*i-1);k++){
-                if(k==1||k==(2*i-1)||2==n){
+                if(k==1||k==(2*i-1)){
                 System.out.print("*");
             }
             else{
